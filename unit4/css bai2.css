@@ -1,40 +1,86 @@
-body{
-	background: url(../picture/bg.jpg);
-	background-size: 100%;
-	background-attachment: fixed;
+#menu {
+			padding-left: 0;
+			height: 42px;
+			background: green
+		}
+.item{
+	list-style: none;
+	float: left;
+	line-height: 42px;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
 }
-h1{
+.item1{
+	list-style: none;
+	float: right;
+	line-height: 42px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.item a{
+	text-decoration: none;
+	color: white;
+}
+.item1 a{
+	color: white;
+}
+.submenu{
+	display: none;
+	padding-left: 0;
+	width: 190px;
+	left: 0;
+	background: #33ff33;
+	position: absolute;
+}
+.item:hover .submenu {
+	display: block
+}
 
-	background: blue;
-	width: 200px;
-	margin-top: 50px;
+.item:hover .submenu .item {
+	float: none;
+	padding-left: 10px;
+	padding-right: 0
 }
-.muctren{
-	text-decoration: none;
+.item2 {
 	list-style: none;
-	float: right;
-	padding-right: 20px;
-	padding-left: 20px;
-	padding-top: 23px;
-	padding-bottom: 10px;
-	background: gray;
-	margin-bottom: 40px;
-	height: 5px;
+	float: left;
+	line-height: 42px;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
 }
-#fullbody{
-	width: 100%;
-	height: 700px;
-	background-color: red;
+.item2 a{
+	color: black;
 }
-#head{
-	background: yellow;
-	width: 100%;
-	height: 100px;
+
+.submenu2{
+	display: none;
+	padding-left: 0;
+	width: 168px;
+	left: 0;
+	background: #33ff33;
+	position: absolute;
 }
-#trentrai{
-	background: black;
-	width: 100px;
-	float: right;
-	text-decoration: none;
+.item:hover .submenu2 {
+	display: block
+}
+
+.item:hover .submenu2 .item {
+	float: none;
+	padding-left: 10px;
+	padding-right: 0;
+	}
+.item3 {
 	list-style: none;
+	float: left;
+	line-height: 42px;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
 }
+.item3 a{
+	color: black;
+
+
+
