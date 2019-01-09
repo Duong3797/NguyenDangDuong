@@ -1,0 +1,8 @@
+#menu{
+	height: 42px;
+	background-color: black;
+}
+.item{
+	font-weight: bold;
+	color: white;
+}
