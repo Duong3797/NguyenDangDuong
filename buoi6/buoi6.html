@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<style type="text/css">
+		.box{
+			width: 25%;
+			height: 200px;
+			float: left;
+		}
+		.green{
+			background: green;
+		}
+		.red{
+			background: red;
+		}
+		.blue{
+			background: blue;
+		}
+		.yellow{
+			background: yellow;
+		}
+		@media  (max-width: 992px) {
+			.box{
+				width: 100%;
+			}
+		}
+		@media (max-width: 755px) {
+			.box{
+				width: 75%
+			}
+		}
+		@media  (max-width: 500px) {
+			.box{
+				width: 50%;
+			}
+		}
+		
+
+		/* div{
+			width: 200px;
+			height:200px;
+			border-radius: 100px;
+			position: relative;
+			background: red;
+			animation: zent;
+			animation-duration: 3s;
+			animation-iteration-count: infinite;
+		}
+		@keyframes zent{
+			0%{
+				top: 0px;
+				left: 0px;
+				background: red;
+			}
+			25%{
+				top: 0px;
+				left: 700px;
+				background: yellow;
+			}
+			50%{
+				top: 40px;
+				left: 500px;
+				background: blue;
+			}
+			75%{
+				top: 50px;
+				left: 400px;
+				background: pink;
+			}
+			100%{
+				top: 70px;
+				left: 200px;
+				background: green;
+			}
+		} */
+			nav{
+				height: 42px;
+				background: green;
+			}
+			nav ul{
+				padding-left: 0;
+			}
+
+			.item{
+				float: left;
+				line-height: 42px;
+				padding-left: 10px;
+				padding-right: 10px;
+				list-style: none;
+			}
+			.item:hover{
+				background: blue;
+			}
+			.item:hover a{
+				color: red;
+			}
+			.item a{
+				color: #fff;
+				text-decoration: none;
+			}
+			.item:first-child{
+				display: none;
+				color: #fff;
+			}
+			@media  (max-width:900px ) {
+				.item{
+					display: none;
+				}
+				.item:first-child {
+					display: block;
+				}
+				
+			}
+			}
+
+	</style>
+</head>
+<body>
+	<!-- <video src="" width="" height="" controls=""></video>
+	<audio src="yourAudio.mp3" controls preload="auto" autobuffe></audio>
+	<iframe scrolling="no" width="640" height="180" src="https://mp3.zing.vn/embed/song/ZW9F08EO?start=true" frameborder="0" allowfullscreen="true"></iframe> -->
+	<div class="red box"></div>
+	<div class="green box"></div>
+	<div class="blue box"></div>
+	<div class="yellow box"></div>
+	<nav>
+		<ul id="menu">
+			<li class="item"><i class="fas fa-bars"></i></li>
+			<li class="item"><a href="">home</a></li>
+			<li class="item"><a href="">home</a></li>
+			<li class="item"><a href="">home</a></li>
+			<li class="item"><a href="">home</a></li>
+			<li class="item"><a href="">home</a></li>
+			<li class="item"><a href="">home</a></li>
+			<li class="item"><a href="">home</a></li>
+			<li class="item"><a href="">home</a></li>
+			
+			
+		</ul>
+	</nav>
+	</body>
+</html>
