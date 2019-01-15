@@ -1,0 +1,211 @@
+.top{
+
+}
+.main{
+	margin-top: 100px;
+}
+.item{
+	list-style: none;
+	display: inline-block;
+	padding: 10px 20px;
+	font-weight: bold;
+}
+.item1{
+	list-style: none;
+	display: inline-block;
+	padding: 10px 20px;
+	font-weight: bold;
+	color: red;
+}
+.letrai{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+.lephai{
+	width: 50%;
+	float: right;
+}
+.chudau{
+	color: red;
+	font-size: 35px;
+}
+.chusau{
+	font-size: 35px;
+}
+.daucham{
+	text-align: center;
+}
+.daucham i{
+	padding-left: 10px;
+}
+.dong1{
+	text-align: center;
+}
+.o1{
+	width: 24%;
+	display: inline-block;
+	text-align: center;
+}
+.anho1{
+	font-size: 35px;
+}
+.chuduoiicon{
+	margin-top: 30px;
+}
+.vongtron{
+	background-color: orange;
+	border-radius: 50px;
+	border: 1px;
+	height: 100px;
+	width: 100px;
+}
+.dong2{
+	margin-top: 100px;
+}
+.dong3{
+	text-align: center;
+	margin-top: 100px;
+}
+.dong4{
+	margin-top: 90px;
+}
+.dong5{
+	float: left;
+}
+.dong6{
+	background-color: #ff3333;
+	height: 300px;
+	margin-bottom: 70px;
+	margin-top: 75px;
+}
+.nddong3{
+	width: 40%;
+	margin: 0 auto;
+}
+.anhdong4{
+	width: 50%;
+	float: left;
+}
+.nddong4{
+	width: 50%;
+	float: left;
+}
+.dong5{
+	width: 100%;
+	margin-top: 100px;
+}
+.trongdong5{
+	width: 80%;
+	margin: 0 auto;
+}
+}
+.chuo5{
+	width: 65%;
+	float: left;
+}
+.o5{
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+}
+.trongdong6{
+	margin: 0 auto; 
+	width: 50%;
+	color: white;
+	text-align: center;
+	margin-bottom: 50px;
+	    padding-top: 50px;
+}
+.trongdong61{
+	margin: 0 auto; 
+	width: 30%;
+	text-align: center;
+}
+.PURCHASE{
+	background-color: white;
+	border-radius: 20px;
+	width: 60%;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.LEARN{
+	background-color: white;
+	border-radius: 20px;
+	width: 40%;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.chudong7{
+	margin: 0 auto;
+	width: 30%;
+	text-align: center;
+}
+.trongdong7{
+	padding-top: 30px;
+	margin-bottom: 70px;
+}
+.anhdong7{
+	margin: 0 auto;
+	width: 90%;
+	text-align: center;
+}
+.anhtrongdong7{
+	width: 22%;
+	float: left;
+	margin-left: 18px;
+    margin-right: 18px;
+}
+.footer{
+	background-color: #404040;
+	margin-top: 80px;
+
+}
+.infooter{
+	margin: 20px auto;
+	width: 90%;
+
+}
+.ndfooter{
+	float: left;
+	color: white;
+}
+.h37{
+	color: white;
+}
+.all{
+	width: 32%;
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.infooter2{
+	background-color: #262626;
+	color: white;
+}
+.inside{
+	margin: 0 auto;
+	width: 90%;
+}
+.item3{
+	list-style: none;
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.itemfooter{
+	display: inline-block;
+}
+.chufooter{
+	display: inline-block;
+	width: 60%;
+}
+.icon{
+	float: left;
+}

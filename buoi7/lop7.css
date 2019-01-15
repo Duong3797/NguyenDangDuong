@@ -1,0 +1,43 @@
+.main{
+	background-color: #d9d9d9;
+text-align: center;
+}
+.item{
+	margin-top: 15px;
+	width: 24%;
+	/*padding: 10px 10px;*/
+	display: inline-block;
+
+	color: #b3b3b3;
+	text-align: center;
+	position: relative;
+
+	   
+}
+img{
+max-width: 100%;
+
+}
+.noidung{
+	display: none;
+	position: absolute;
+	top: 0;
+	background-color: #f2f2f2;
+	opacity: 0.5;
+	color: black;
+
+		
+}
+.item:hover .noidung{
+	display: block;
+}
+@media  (max-width:1000px ){
+	.item{
+   		width: 	48%
+	}
+}
+@media  (max-width:700px ){
+	.item{
+   		width: 100%
+	}
+}
