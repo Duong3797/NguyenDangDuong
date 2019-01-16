@@ -10,6 +10,13 @@
 	padding: 10px 20px;
 	font-weight: bold;
 }
+.bar{
+
+	display: none;
+	padding: 10px 20px;
+	
+
+	}
 .item1{
 	list-style: none;
 	display: inline-block;
@@ -208,4 +215,68 @@
 }
 .icon{
 	float: left;
+}
+@media(max-width: 915px){
+			.item{
+				display: none;
+			}
+			.item1{
+				display: none;
+			}
+			.bar{
+			display: block;
+			float: right;
+			}
+			.o1{
+				width: 100%;}
+				.dong4{
+					text-align: center;
+				}
+			.anhdong4{
+				width: 100%;
+			}
+			.nddong4{
+				width: 100%;
+			}
+			.anhtrongdong7{
+				width: 100%;
+			}
+			.o5{
+				width: 100%;
+				padding-bottom: 40px;
+   				 padding-top: 40px;
+			}
+			.all{
+				width: 100%;
+			}
+		}
+@media(max-width: 600px){
+			.item{
+				display: inline-block;
+			}
+			.item1{
+				display: inline-block;
+			}
+			.o1{
+				}
+			.bar{
+			display: none;
+			}
+			.anhdong4{
+				width: 100%;
+			}
+			.nddong4{
+				width: 100%;
+			}
+			.anhtrongdong7{
+				width: 100%;
+			}
+			.o5{
+				width: 100%;
+				padding-bottom: 40px;
+   				 padding-top: 40px;
+			}
+			.all{
+				width: 100%;
+			}
 }
