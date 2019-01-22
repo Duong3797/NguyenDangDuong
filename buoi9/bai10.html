@@ -4,13 +4,15 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 </head>
-<body onload="myFunction()">
-	<h1>Hello World</h1>
+<body>
 	<script type="text/javascript">
-		function myFunction() {
-			alert("Page is loaded");
+		for (var i=0; i<=100 ; i++)
+		{
+			if (i % 3 == 0 || i % 7 == 0)
+			{
+		document.write(i + ' ')
+			}
 		}
-		
 	</script>
 </body>
 </html>
