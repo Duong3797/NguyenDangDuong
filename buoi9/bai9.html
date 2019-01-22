@@ -5,11 +5,30 @@
 	<title>Document</title>
 </head>
 <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bài 9</title>
+</head>
+<body>
+	<input type="text" name="" id="so">
+	<button onclick="nhap()">Click</button>
+	<p id="kq"></p>
 	<script type="text/javascript">
-		var soduong = 'n';
-	for(var i=1; i<=n ; i++ ){
-			if (n > 0) {}
+		function nhap() {
+		var n = document.getElementById("so").value;
+		var res=0;
+		var i = 1;
+		do{
+			res=res+i;
+			i++;
+		}
+		while (i<=n)
+		document.getElementById("kq").innerHTML=res;
 	}
 	</script>
+</body>
+</html>
 </body>
 </html>
