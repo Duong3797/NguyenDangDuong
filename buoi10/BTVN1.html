@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="BTVN1.css">
+</head>
+<body>
+	<div id="all">
+		<div id="table">
+			<div id="line">
+				<div class="left">
+					<p>Họ và tên </p>
+				</div>
+				<div class="right">
+					<input id="name" style="width: 100%" type="text" placeholder="Nhập họ tên ...">
+				</div>
+				<p style="color: red" id="name-error"></p>
+			</div>
+
+			<div id="line">
+				<div class="left">
+					<p>Giới tính </p>
+				</div>
+				<div class="right">
+					<input id="male" type="radio" name="gender" value="male"> Nam
+					<input id="female" type="radio" name="gender" value="female"> Nữ
+				</div>
+				<p style="color: red" id="gender-error"></p>
+			</div>
+
+			<div id="line">
+				<div class="left">
+					<p>Email</p>
+				</div>
+				<div class="right">
+					<input id="email" style="width: 100%" type="text" placeholder="Nhập Email ...">
+				</div>
+				<p style="color: red" id="email-error"></p>
+			</div>
+
+			<div id="line">
+				<div class="left">
+					<p>Số điện thoại</p>
+				</div>
+				<div class="right">
+					<input id="phonenumber" style="width: 100%" type="text" placeholder="Nhập số điện thoại...">
+				</div>
+				<p id="phonenumber-error"></p>
+			</div>
+
+			<div id="line">
+				<div class="left">
+					<p>Mật khẩu </p>
+				</div>
+				<div class="right">
+					<input id="password" style="width: 100%" type="text" >
+				</div>
+				<p id="password-error"></p>
+			</div>
+
+			<div id="line">
+				<div class="left">
+					<p>Xác nhận mật khẩu </p>
+				</div>
+				<div class="right">
+					<input id="passwordconfirm" style="width: 100%" type="text" >
+				</div>
+				<p id="passwordconfirm-error"></p>
+			</div>
+
+		</div>
+	</div>
+	<div>
+		<div>
+			<button onclick="signin()" style="background-color: red;color: white;">Đăng kí</button>
+			<button onclick="dele()" style="background-color: red;color: white;">Xóa Trắng</button>
+		</div>
+	</div>
+	<script type="text/javascript">	
+			function signin(){
+			var res=true;
+			var name = document.getElementById('name').value;
+			var gender =document.getElementsByName("gender");
+			var email = document.getElementById('email').value;
+			var phonenumber = document.getElementById('phonenumber').value;
+			var password = document.getElementById('password').value;
+			var passwordconfirm = document.getElementById('passwordconfirm').value;
+			var word=/[^a-zA-Z ]/g;
+			var number=/[^0-9]/g;  
+			//name
+			if (name == "") 
+			{
+				document.getElementById('name-error').innerHTML = "Yêu cầu nhập đầy đủ họ tên";
+				res=false;
+			} 
+			else if(name.length <=8 ) 
+			{ 
+				document.getElementById('name-error').innerHTML = "Họ tên phải lớn hơn 8 kí tự";
+				res=false;
+			}
+			else if(word.test(name))
+			{
+				document.getElementById('name-error').innerHTML = "Không được nhập số hay ký tự đặc biệt";
+				res=false;
+			}
+			else{
+				document.getElementById('name-error').innerHTML = "";
+				res=true;
+			}
+
+			//gender
+			if (gender[0].checked == false && gender[1].checked == false) 
+			{
+				document.getElementById('gender-error').innerHTML = "Yêu cầu chọn giới tính";
+				res=false;
+			}
+			else{
+				document.getElementById('gender-error').innerHTML = "";
+				res=true;
+			}
+			//email
+			if (email == "") 
+			{
+				document.getElementById('email-error')innerHTML="Yêu cầu nhập Email";
+				res=false;
+			}
+			else{
+				document.getElementById('email-error')innerHTML="";
+				res=true;
+			}
+
+			if (email == "") 
+			{
+				document.getElementById('email-error').innerHTML = "Yêu cầu nhập đầy đủ email";
+				res=false;
+			}
+			else{
+				document.getElementById('email-error').innerHTML = "";
+				res=true;
+			}
+		}
+	</script>
+</body>
+</html>

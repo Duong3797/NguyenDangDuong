@@ -1,0 +1,20 @@
+#table{
+	border: 2px solid black;
+
+	border-radius: 10px; 
+	width: 70%;
+	margin: 0 auto;
+}
+.left{
+	padding-left: 10px;
+	width: 40%;
+	display: inline-block;
+}
+.right{
+	width: 35%;
+	display: inline-block;
+}
+#button{
+	width: 18%;
+	margin: 0 auto;
+}

@@ -1,0 +1,12 @@
+.picture{
+	    width: 22%;
+    margin: 0 auto;
+}
+.left{
+width: 95%;
+    display: inline-block
+}
+.right{
+width: 50%;
+    display: inline;
+}
