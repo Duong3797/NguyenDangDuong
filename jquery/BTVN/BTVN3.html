@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="bai3css.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>		
+			<div class="font">
+				<div class="accordion">
+				<div class="greenletter" ">
+					<!-- <button class="minus"><i class="fas fa-minus"></i></button> -->
+					<button  class="plus"><i class="fas fa-plus"></i></button>
+					<span>This is expanded panel!</span>		
+				</div>
+				<hr color="#404040">
+				<div class="content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.
+					</p>
+				</div>
+			    </div>
+			    <div class="accordion">
+				<div class="greenletter" ">
+					
+					<button class="plus"><i class="fas fa-plus"></i></button>
+					<span>second panel</span></i>					
+				</div>
+				<hr color="#404040">
+				<div class="content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.
+					</p>
+				</div>
+			</div>
+			<div class="accordion">
+				<div class="greenletter" ">
+					
+					<button  class="plus"><i class="fas fa-plus"></i></button>
+					<span>Third panel</span></i>					
+				</div>
+				<hr color="#404040">
+				<div class="content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.
+					</p>
+				</div>
+			</div>
+			<div class="accordion">
+				<div class="greenletter" ">
+					
+					<button  class="plus"><i class="fas fa-plus"></i></button>
+					<span>Fourth panel</span></i>			
+				</div>
+				<hr color="#404040">
+				<div class="content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.
+					</p>
+				</div>
+			</div>
+			</div>
+
+	<script type="text/javascript">
+		$('.content').hide();	
+		$('.accordion').click(function() {
+        if($(this).find("i").hasClass("fa-minus"))
+        {
+            $(this).find("i").removeClass("fa-minus");
+		    $(this).find("i").addClass("fa-plus");	
+            $(this).find('.content').hide();
+        }
+        else
+        {
+        	$(this).find("i").removeClass("fa-plus");
+		    $(this).find("i").addClass("fa-minus");	
+	        $(this).find('.content').show();
+	        $(this).siblings().find('.content').hide();
+	        $(this).siblings().find("i").removeClass("fa-minus");
+	        $(this).siblings().find("i").addClass("fa-plus");
+        }
+        });
+	</script>
+</body>
+</html>

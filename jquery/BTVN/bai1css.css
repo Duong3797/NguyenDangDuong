@@ -1,0 +1,164 @@
+#logoLeader{
+	    width: 50%;
+    text-align: center;
+    display: inline-block;
+}
+#bigletters{
+	text-align: center;
+}
+.bluefont{
+	text-align: center;
+	margin: 0 auto ;
+	width: 15%;
+	border-width: 1px;
+   border-style: solid;
+   border-radius: 25px;
+   background-color: #6666ff;
+}
+.background{
+	margin: 0 auto;
+
+}
+.background1{
+	margin: 0 auto;
+	width: 40%;
+    display: inline-block;
+
+}
+.bluefont2{
+	text-align: center;
+
+	border-width: 1px;
+   border-style: solid;
+   border-radius: 25px;
+   background-color: #6666ff;
+   display: inline-block;
+}
+.bluefont3{
+	text-align: center;
+
+	border-width: 1px;
+   border-style: solid ;
+   border-radius: 25px;
+   display: inline-block;
+}
+#right{
+	float: right;
+	width: 40%;
+}
+.smallbox{
+	border-width: 1px;
+   border-style: solid;
+   width: 15%;
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   display: inline-block;
+   margin: 10px 10px;
+    border-color: #e6e6e6;
+}
+#logoright{
+float: right;
+width: 30%;
+}
+.bluefont4{
+	text-align: center;
+
+width: 30%;
+	border-width: 1px;
+   border-style: solid;
+   border-radius: 25px;
+   background-color: #6666ff;
+}
+.bluefont5{
+	text-align: center;
+width: 20%;
+	border-width: 1px;
+   border-style: solid;
+   border-radius: 25px;
+ 
+}
+#buynow{
+	    width: 35%;
+    margin-left: 17%;
+    display: inline-block;
+
+}
+#content4{
+	background-color: #ccffff;
+}
+#content5{
+text-align: center;
+}
+.customer{
+	margin: 0 auto;
+	width: 80%;
+}
+.customer-img{
+	    width: 45%;
+	    text-align: center;
+	    border-width: 1px;
+   border-style: solid;
+   display: inline-block;
+   margin: 15px 15px;
+}
+#footer{
+ background-color: #999999;
+}
+.ftcontent{
+	margin: 0 auto;
+	width: 30%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#fillright{
+	width: 35%;
+	display: inline-block;
+	    margin-left: 25px;
+}
+#fillform{
+	border-width: 1px;
+   border-style: solid;
+       border-radius: 10px;
+}
+#in-content{
+	width: 80%;
+	margin: 0 auto ;
+}
+#form2{
+	color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bluefont7{
+	border-width: 1px;
+   border-style: solid;
+   background-color: #6666ff;
+   text-align: center;
+   color: white;
+}
+@media (max-width:600px ){
+	.background1{
+		width: 100%;
+		display: block;
+		
+
+	}
+	#right{
+		width: 100%;
+		display: block;
+
+	}
+	.smallbox{
+		width: 40%;
+		display: block;
+		
+	}
+}
+#font3{
+	background-color: #b3b3ff;
+	width: 100%;
+	height: auto;
+}

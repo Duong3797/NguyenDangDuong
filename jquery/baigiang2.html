@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		#content{
+			width: 300px;
+			height: 300px;
+			display: none;
+			background-color: blue;
+		}
+	</style>
+</head>
+<body>
+	<div id="div">
+		<ul>
+			<li class="item">
+				<span>2</span>
+				<span>3</span>
+			</li>
+			<li>
+				<b>AAAAAA</b>
+			</li>
+			<h1>AAAAAA</h1>
+			<p>met</p>
+		</ul>
+	</div>
+	<h1 id="hello">Hello zen group</h1>
+
+	<button onclick="clickme()">clickme</button>
+	<div id="content"></div>
+	<script type="text/javascript" src="C:/Web/js/jquery.min.js"></script>
+	<script type="text/javascript">
+		//$('#hello').css({'color':'red', 'background':'green'})
+		/*$('.item').parents('body>#div').css('background','blue')*/
+		/*$('#div').find('li')*/
+		$('#div>h1').css('color','red')
+
+		function clickme(){
+			$('#content').toggle();
+		}
+	</script>
+</body>
+</html>
