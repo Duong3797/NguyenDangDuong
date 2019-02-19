@@ -1,0 +1,28 @@
+.navbar-nav{
+	margin-left: auto;
+}
+#allhead{
+	background-image: url(../buoi12/anh/shooting-stars-on-blue-night-sky-looping-background_ekpizh_i__F0000.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 450px;
+}
+#head-content{
+	color: white;
+}
+#second-content{
+	height: 400px;
+	background-color: #002699;
+}
+#in-content{
+	width: 60%;
+	margin: 0 auto;
+	padding-top: 80px;
+
+	color: white;
+	text-align: center;
+}
+#three-content{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
