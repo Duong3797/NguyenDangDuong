@@ -1,15 +1,29 @@
 		<!DOCTYPE html>
-		<html lang="en">
-		<head>
-			<meta charset="UTF-8">
-			<title>Welcome to ZentGroup</title>
-		</head>
-		<body bgcolor="lavender">
-			<h3>My first HTML document</h3>
-			<p>
-				This is going tobe real fun
-				<h2> Using another heading</h2>
-			</p>
-			<p align="center">Our website: https://zent.edu.vn</p>
-		</body>
-		</html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<img src="../picture/img_kinhdoanh.gif" onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" 
+width="32" height="32" alt="Smiley">
+<hr style="background-color: orange;
+	width: 50px;
+	text-align: center; 
+	size: 2px;
+	">
+	<script type="text/javascript">
+		var hr = document.getElementsByTagName('hr');
+		function bigImg(x) {
+			x.style.height = "64px";
+			x.style.width = "64px";
+			hr.display =  ;
+
+		}
+		function normalImg(x) {
+			x.style.height = "32px";
+			x.style.width = "32px";
+		}
+	</script>
+</body>
+</html>
