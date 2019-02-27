@@ -107,7 +107,7 @@
 	bottom: 0;
 	left: 0;
 	right: 0;
-	height: 461px;
+	height: 640px;
 	width: 100%;
 	opacity: 0.5;
 	transition: .5s ease;
@@ -276,7 +276,7 @@ select {
   transition: height 500ms ease-out;
 }
 #design7{
-	    margin-top: 300px;
+	    
 }
 #design8{
 	background-color: #e6e6e6;
