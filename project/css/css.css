@@ -112,13 +112,26 @@
 	position: relative;
 	width: 100%;
 }
+#navbar1{
+	width: 100%;
+	height: 50px;
+}
+
+.chu{
+	text-decoration: none;
+	list-style: none;
+	color: white;
+}
+.twice{
+	color: white;padding-right: 15px;padding-left: 15px;
+}
 .overlay1{
 	position: absolute;
 	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	height: 640px;
+	height: 630px;
 	width: 100%;
 	opacity: 0.5;
 	transition: .5s ease;
@@ -156,6 +169,7 @@
 }
 #design4{
 	margin-bottom: 30px;
+	margin-top: 100px;
 }
 #design5{
 	margin-top: 80px;
@@ -361,7 +375,7 @@ select {
 .fas.fa-map-marker-alt {
 	position: absolute;
 	top: 30%;
-	left: 49%;
+	left: 47%;
 }
 .webdesign{
 	position: absolute;
@@ -413,13 +427,13 @@ select {
 		display: block !important;
 	}
 	.pre-webdesign1{
-		position: absolute;top: 17%;left: 18%;
+		position: absolute;top: 17%;left: 17%;
 	}
 	.pre-webdesign1y{
-		position: absolute;top: 17%;left: 18%;
+		position: absolute;top: 17%;left: 14%;
 	}
 	.pre-webdesign1x{
-		position: absolute;top: 17%;left: 23%;
+		position: absolute;top: 17%;left: 20%;
 	}
 	.webdesign1{
 		top: 50%;
@@ -444,6 +458,39 @@ select {
 	.ol{
 		top: 250px;
 	}
+	.icon6{
+		color: white;text-align: center;font-size: 30px;
+	}
+	.op1{
+		padding: 17px;
+	}
+	#btrast{
+		margin-top: 0px;background-color: orange;
+	}
+  	.nav-item:hover .nav-link {
+  		background-color: yellow;
+  		
+  		color: orange !important;
+
+  	}
+  	.nav-item{
+  		
+  		padding-right: 15px;
+  		padding-left: 15px;
+  	}
+  	#top-up {
+background:none;
+font-size: 3em;
+text-shadow:0px 0px 5px #c0c0c0;
+cursor: pointer;
+position: fixed;
+z-index: 9999;
+color:#004993;
+bottom: 20px;
+right: 15px;
+display: none;
+}
+
 	@media only screen and (min-width: 320px) and (max-width: 374px)
 	{
 		.orange-box{
@@ -453,14 +500,17 @@ select {
 		.pre-webdesign1 {
 			top: 17%;
 			left: 3%;
+			    font-size: 14px;
 		}
 		.pre-webdesign1y {
-			top: -15%;
+			top: 15%;
 			left: 3%;
+			    font-size: 14px;
 		}
 		.pre-webdesign1x {
 			top: 17%;
 			left: 14%;
+			    font-size: 14px;
 		}
 		.after-ga78{
 			left: 29%;
@@ -479,6 +529,10 @@ select {
 		.text1{
 			font-size: 14px;
 		}
+		.text h5{
+			    font-size: 13px;
+		}
+
 	}
 	@media only screen and (min-width: 375px) and (max-width: 413px)
 	{
@@ -516,6 +570,28 @@ select {
 		.text1{
 			font-size: 15px;
 		}
+		.orange-bt{
+			margin-top: 30px;
+		}
+		.pre-webdesign1x{
+			    top: 17%;
+    left: 14%;
+		}
+		.pre-webdesign1{
+			top: 17%;
+    left: 6%;
+		}
+		.pre-webdesign1y{
+			    top: 14%;
+    left: 5%;
+		}
+		.text h5{
+			    font-size: 13px;
+		}
+		#carouselExampleIndicators button {
+			
+			margin-top: 0px;background-color: orange;
+		}
 	}
 	@media only screen and (min-width: 414px) and (max-width: 500px)
 	{
@@ -538,6 +614,9 @@ select {
 		.text1{
 			font-size: 16px;
 		}
+		.text h5{
+			    font-size: 15px;
+		}
 	}
 	@media only screen and (min-width: 768px) and (max-width: 1000px)
 	{
@@ -547,6 +626,10 @@ select {
 			top: 10%;
 			width: 100px;
 			height: 135px;
+
+		}
+		.icon6{
+			font-size: 20px;
 		}
 		.pre-webdesign1y 
 		{
@@ -574,6 +657,32 @@ select {
 			top: 34%;
 			margin-top: 40px;
 		}
+		.fas.fa-map-marker-alt {
+	position: absolute;
+	top: 27%;
+	left: 45%;
+}
+.pre-webdesign1 {
+			top: 17%;
+			left: 10%;
+			    font-size: 14px;
+		}
+		.pre-webdesign1y {
+			top: 15%;
+			left: 10%;
+			    font-size: 14px;
+		}
+		.pre-webdesign1x {
+			top: 17%;
+			left: 20%;
+			    font-size: 14px;
+		}
+.webdesign{
+	top: 43%;
+}
+.text{
+	    margin-top: 15px;
+}
 	}
 	@media only screen and (min-width: 1001px) and (max-width: 1024px)
 	{
@@ -602,6 +711,9 @@ select {
 		}
 		.text{    
 			margin-top: 65px;
+		}
+		.text{
+			    margin-top: 22px;
 		}
 
 	}
