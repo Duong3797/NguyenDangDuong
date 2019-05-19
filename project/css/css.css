@@ -14,6 +14,13 @@
 	margin-bottom: 22px;
 
 }
+#idol69{
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+}
+
+
 #doan2{
 	margin-top: -10px;
 }
@@ -467,29 +474,29 @@ select {
 	#btrast{
 		margin-top: 0px;background-color: orange;
 	}
-  	.nav-item:hover .nav-link {
-  		background-color: yellow;
-  		
-  		color: orange !important;
+	.nav-item:hover .nav-link {
+		background-color: yellow;
+		
+		color: orange !important;
 
-  	}
-  	.nav-item{
-  		
-  		padding-right: 15px;
-  		padding-left: 15px;
-  	}
-  	#top-up {
-background:none;
-font-size: 3em;
-text-shadow:0px 0px 5px #c0c0c0;
-cursor: pointer;
-position: fixed;
-z-index: 9999;
-color:#004993;
-bottom: 20px;
-right: 15px;
-display: none;
-}
+	}
+	.nav-item{
+		
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	#top-up {
+		background:none;
+		font-size: 3em;
+		text-shadow:0px 0px 5px #c0c0c0;
+		cursor: pointer;
+		position: fixed;
+		z-index: 9999;
+		color:#004993;
+		bottom: 20px;
+		right: 15px;
+		display: none;
+	}
 
 	@media only screen and (min-width: 320px) and (max-width: 374px)
 	{
@@ -500,17 +507,17 @@ display: none;
 		.pre-webdesign1 {
 			top: 17%;
 			left: 3%;
-			    font-size: 14px;
+			font-size: 14px;
 		}
 		.pre-webdesign1y {
 			top: 15%;
 			left: 3%;
-			    font-size: 14px;
+			font-size: 14px;
 		}
 		.pre-webdesign1x {
 			top: 17%;
 			left: 14%;
-			    font-size: 14px;
+			font-size: 14px;
 		}
 		.after-ga78{
 			left: 29%;
@@ -530,7 +537,7 @@ display: none;
 			font-size: 14px;
 		}
 		.text h5{
-			    font-size: 13px;
+			font-size: 13px;
 		}
 
 	}
@@ -574,19 +581,19 @@ display: none;
 			margin-top: 30px;
 		}
 		.pre-webdesign1x{
-			    top: 17%;
-    left: 14%;
+			top: 17%;
+			left: 14%;
 		}
 		.pre-webdesign1{
 			top: 17%;
-    left: 6%;
+			left: 6%;
 		}
 		.pre-webdesign1y{
-			    top: 14%;
-    left: 5%;
+			top: 14%;
+			left: 5%;
 		}
 		.text h5{
-			    font-size: 13px;
+			font-size: 13px;
 		}
 		#carouselExampleIndicators button {
 			
@@ -615,7 +622,7 @@ display: none;
 			font-size: 16px;
 		}
 		.text h5{
-			    font-size: 15px;
+			font-size: 15px;
 		}
 	}
 	@media only screen and (min-width: 768px) and (max-width: 1000px)
@@ -658,31 +665,31 @@ display: none;
 			margin-top: 40px;
 		}
 		.fas.fa-map-marker-alt {
-	position: absolute;
-	top: 27%;
-	left: 45%;
-}
-.pre-webdesign1 {
+			position: absolute;
+			top: 27%;
+			left: 45%;
+		}
+		.pre-webdesign1 {
 			top: 17%;
 			left: 10%;
-			    font-size: 14px;
+			font-size: 14px;
 		}
 		.pre-webdesign1y {
 			top: 15%;
 			left: 10%;
-			    font-size: 14px;
+			font-size: 14px;
 		}
 		.pre-webdesign1x {
 			top: 17%;
 			left: 20%;
-			    font-size: 14px;
+			font-size: 14px;
 		}
-.webdesign{
-	top: 43%;
-}
-.text{
-	    margin-top: 15px;
-}
+		.webdesign{
+			top: 43%;
+		}
+		.text{
+			margin-top: 15px;
+		}
 	}
 	@media only screen and (min-width: 1001px) and (max-width: 1024px)
 	{
@@ -713,7 +720,7 @@ display: none;
 			margin-top: 65px;
 		}
 		.text{
-			    margin-top: 22px;
+			margin-top: 22px;
 		}
 
 	}

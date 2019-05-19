@@ -3,9 +3,19 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<link rel="stylesheet" type="text/css" href="nhap.css">
 </head>
 <body>
-	<div class="noidung"></div>
+	<p id="demo"></p>																										
+	<script type="text/javascript">
+		var x = {
+			Ho: "Nguyen",
+			TD : "Dang",
+			ten : "Duong",
+			vd : function () {
+				return this.Ho;
+			}
+		};
+		document.getElementById("demo").innerHTML = x.vd();
+	</script>				
 </body>
 </html>
